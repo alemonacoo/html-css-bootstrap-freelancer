@@ -19,3 +19,20 @@ input[type="button"] {
     background-color: green;
     border-radius: 5px;
 }
+
+/* Background and Colors */
+header, footer{
+    color: white;
+    background-color: rgb(59, 84, 108);
+}
+
+section:nth-of-type(1), section:nth-of-type(3){
+    color: white;
+    background-color: rgb(41, 187, 156);
+
+} 
+.copyright{
+    color: white;
+    background-color: rgb(44, 62, 79); 
+}
+
