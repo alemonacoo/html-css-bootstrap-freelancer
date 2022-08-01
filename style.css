@@ -3,3 +3,19 @@
     border: solid black 1px;
 }
 
+
+input[type="text"] {
+    width: 100%;
+    border: none;
+    border-bottom: grey solid 1px;
+}
+
+#message{
+    height: 7rem;
+}
+
+input[type="button"] {
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
