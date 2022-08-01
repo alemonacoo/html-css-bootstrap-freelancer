@@ -1,5 +1,5 @@
 /* Debug */
-.db-border{
+.db-border {
     border: solid black 1px;
 }
 
@@ -10,7 +10,7 @@ input[type="text"] {
     border-bottom: grey solid 1px;
 }
 
-#message{
+#message {
     height: 7rem;
 }
 
