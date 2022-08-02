@@ -1,38 +1,62 @@
-/* Debug */
-.db-border {
-    border: solid black 1px;
+:root {
+  --col-green: rgb(41, 187, 156);
 }
 
-
+/* Inputs Styling */
 input[type="text"] {
-    width: 100%;
-    border: none;
-    border-bottom: grey solid 1px;
-}
-
-#message {
-    height: 7rem;
+  width: 100%;
+  border: none;
+  border-bottom: grey solid 1px;
 }
 
 input[type="button"] {
-    color: white;
-    background-color: green;
-    border-radius: 5px;
+  background-color: var(--col-green);
+  border: none;
 }
 
 /* Background and Colors */
-header, footer{
-    color: white;
-    background-color: rgb(59, 84, 108);
+header,
+footer {
+  color: white;
+  background-color: rgb(59, 84, 108);
 }
 
-section:nth-of-type(1), section:nth-of-type(3){
-    color: white;
-    background-color: rgb(41, 187, 156);
-
-} 
-.copyright{
-    color: white;
-    background-color: rgb(44, 62, 79); 
+section:nth-of-type(1),
+section:nth-of-type(3) {
+  color: white;
+  background-color: var(--col-green);
 }
 
+.copyright {
+  color: white;
+  background-color: rgb(44, 62, 79);
+}
+
+#horizontal-line {
+  width: 150px;
+  height: 5px;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+/* Text Styling */
+
+h1 > span,
+h4 > span {
+  text-transform: uppercase;
+}
+
+#message {
+  height: 7rem;
+}
+
+#start-bootstrap-link {
+  color: var(--col-green);
+  text-decoration: none;
+}
+
+.header-links {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
